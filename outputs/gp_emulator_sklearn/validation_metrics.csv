@@ -1,0 +1,8 @@
+,value
+mean_absolute_error,0.0007601179153952964
+root_mean_squared_error,0.0019181735550297353
+max_absolute_error,0.049784848051758646
+r2,0.9995711309508574
+train_rows,41493.0
+validation_rows,10374.0
+gp_fit_rows,2500.0

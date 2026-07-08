@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+  "contracts": 899,
+  "evaluations": 516,
+  "fitted_parameters": {
+    "v0": 0.02742675607740627,
+    "kappa": 1.2780702425272705,
+    "theta": 0.2375397622957753,
+    "sigma_v": 0.9993863554271026,
+    "rho": -0.9495768662885722
+  },
+  "total_calibration_error": 9.438988881290841,
+  "rmse": 0.10246673342412406,
+  "mae": 0.05480427936566043,
+  "wall_clock_seconds": 12.270436708990019,
+  "bounds": {
+    "v0": [
+      0.0100207958590628,
+      0.2498920421524241
+    ],
+    "kappa": [
+      0.1001058627817415,
+      4.998386022881946
+    ],
+    "theta": [
+      0.0101229951136501,
+      0.2499243545643585
+    ],
+    "sigma_v": [
+      0.0501999396475361,
+      0.9993863554271026
+    ],
+    "rho": [
+      -0.9495768662885722,
+      -0.0005757410491344
+    ]
+  },
+  "market_data": "data/spy_options_clean_with_iv.csv",
+  "model": "outputs/gp_emulator/gp_emulator_model.npz",
+  "normalized_strike": true,
+  "domain_only": false,
+  "option_type": "all"
+}

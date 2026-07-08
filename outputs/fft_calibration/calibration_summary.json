@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "contracts": 973,
+  "valid_model_ivs": 973,
+  "evaluations": 474,
+  "fitted_parameters": {
+    "v0": 0.03601990552838322,
+    "kappa": 2.6509613111613657,
+    "theta": 0.0101229951136501,
+    "sigma_v": 0.9993863554271026,
+    "rho": -0.9495768662885722
+  },
+  "total_calibration_error": 17.649008421242204,
+  "rmse": 0.1346801945382675,
+  "mae": 0.08962573319836063,
+  "wall_clock_seconds": 3.4958787910290994,
+  "bounds": {
+    "v0": [
+      0.0100207958590628,
+      0.2498920421524241
+    ],
+    "kappa": [
+      0.1001058627817415,
+      4.998386022881946
+    ],
+    "theta": [
+      0.0101229951136501,
+      0.2499243545643585
+    ],
+    "sigma_v": [
+      0.0501999396475361,
+      0.9993863554271026
+    ],
+    "rho": [
+      -0.9495768662885722,
+      -0.0005757410491344
+    ]
+  },
+  "market_data": "data/spy_options_clean.csv",
+  "risk_free_rate": 0.03,
+  "option_type": "all",
+  "fft_settings": {
+    "alpha": 1.5,
+    "n_fft": 2048,
+    "eta": 0.25
+  }
+}
