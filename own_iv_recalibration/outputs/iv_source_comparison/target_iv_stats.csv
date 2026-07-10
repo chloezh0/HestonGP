@@ -1,8 +1,0 @@
-metric,value
-total rows,973.0
-valid own-IV rows,899.0
-own-IV missing rows,74.0
-correlation,0.9631438512576352
-mean own minus yfinance,-0.014268860354042515
-mean absolute difference,0.03306781406594497
-median absolute difference,0.015462820872899782
