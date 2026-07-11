@@ -21,7 +21,6 @@ This repository contains code for calibrating the Heston stochastic volatility m
 <br>
 
 <p align="center">
-  <img src="assets/HestonGP.png" alt="Project workflow" width="300">
 </p>
 
 ## Requirements
