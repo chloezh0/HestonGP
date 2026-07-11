@@ -1,4 +1,0 @@
-method,wall_clock_seconds,speedup_vs_gp
-FFT pricer,3.4958787910290994,1.111004015639618
-GP emulator,3.883935375022702,1.0
-Sparse GP emulator,3.263193165999837,1.1902253950181556
