@@ -17,6 +17,10 @@ This repository contains code for calibrating the Heston stochastic volatility m
 3. Train GP or sparse GP emulators for implied volatility.
 4. Calibrate Heston parameters using FFT, Monte Carlo, GP, and sparse GP methods.
 5. Compare calibration accuracy and runtime across methods.
+   
+<br>
+
+![Project workflow](assets/HestonGP.png)
 
 ## Requirements
 
